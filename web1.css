@@ -27,7 +27,10 @@
   color: white;
   justify-content: space-around;
 }
-
+.navbarMenu a :hover {
+  color: blue;
+  text-decoration: none;
+}
 .navbarMenu button {
   background-color: white;
   border-radius: 5rem;
@@ -227,12 +230,20 @@ footerImages
 .footerImages {
   display: flex;
   width: 100%; 
+  border: 5px solid black;
 }
 .footerImages img {
   height: 20rem;
   object-fit: cover;
 }
+@media only screen and (max-width: 425px)
+{
+  .footerImages{
+    display: block;
+    border: 5px solid black;
 
+  }
+}
 /*
 footer
 
