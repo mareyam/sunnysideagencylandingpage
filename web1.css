@@ -1,3 +1,4 @@
+
 .main {
   border: 1px solid red;
 }
@@ -71,7 +72,7 @@
 
 */
 .transformBrand {
-  border: 2px solid red;
+  border: 2px solid purple;
 }
 .transformBrandPara {
   border: 2px solid rgb(10, 184, 33);
@@ -97,9 +98,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
 }
-
+.transformBrandImageDiv {
+  border: 2px solid purple;
+ 
+}
 /* rightAudience
 *
 *
@@ -133,10 +136,15 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
 }
 .rightAudience .row {
   flex-direction: row-reverse;
+}
+.rightAudiencePara {
+border: 2px solid purple;
+}
+.transformBrandImageDiv2 {
+  border: 2px solid purple;
 }
 /* photographyAndGraphicDesign
 *
@@ -155,6 +163,7 @@
   background-image: url("image-graphic-design.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  border: 2px solid red;
 }
 .Photography {
   width:100%;
@@ -163,6 +172,7 @@
   background-image: url("image-photography.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  border: 2px solid red;
 }
 .graphicDesign span,
 .Photography span
